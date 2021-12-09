@@ -6,7 +6,7 @@ const ADD_ANSWER = "quiz/ADD_ANSWER";
 const RESET_ANSWER = "quiz/RESET_ANSWER";
 
 const initialState = {
-  name: "아놀드",
+  name: "용선이",
   score_texts: {
     60: "우린 친구! 앞으로도 더 친하게 지내요! :)",
     80: "우와! 우리는 엄청 가까운 사이!",
@@ -14,11 +14,11 @@ const initialState = {
   },
   answers: [],
   quiz: [
-    { question: "아놀드는 26살이다.", answer: "X" },
-    { question: "아놀드의 소속팀은 리버풀이다.", answer: "O" },
-    { question: "아놀드는 공격수이다.", answer: "X" },
-    { question: "아놀드는 영국출신이다.", answer: "O" },
-    { question: "아놀드의 등번호는 66번이다.", answer: "O" },
+    { question: "이용선은 95년생이다.", answer: "O" },
+    { question: "거주지는 서울이다", answer: "O" },
+    { question: "운동을 좋아하지 않는다.", answer: "X" },
+    { question: "힙합보다 발라드를 좋아한다.", answer: "X" },
+    { question: "승부욕이 쎄다.", answer: "O" },
     // { question: "르탄이는 6살이다.", answer: "O" },
     // { question: "르탄이는 7살이다.", answer: "O" },
     // { question: "르탄이는 8살이다.", answer: "O" },

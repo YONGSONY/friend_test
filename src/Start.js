@@ -38,7 +38,7 @@ const Start = (props) => {
       >
         <img
           src={img}
-          style={{ width: "80%", margin: "-70px 16px 48px 16px" }}
+          style={{ width: "300px", margin: "-70px 16px 48px 16px" }}
         />
         <h1 style={{ fontSize: "1.5em", margin: "0px", lineHeight: "1.4" }}>
           나는{" "}
